@@ -30,6 +30,19 @@ Secure error handling patterns that separate internal debugging from client resp
 
 ---
 
+### 🧮 Computed Fields Best Practices
+Never forget the right way to handle computed/derived fields in FastAPI + Beanie/Pydantic.
+
+**Features:**
+- When to compute vs. when to store
+- Production-ready code patterns
+- Common pitfalls and solutions
+- Fast lookup cheat sheet
+
+👉 [View Computed Fields Documentation](./computed-field-best-practices/README.md)
+
+---
+
 ## 🚀 Quick Start
 
 1. **Choose a boilerplate** from the folders above
