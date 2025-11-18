@@ -7,7 +7,7 @@ This file demonstrates the correct way to handle exceptions in FastAPI:
 """
 
 from fastapi import APIRouter, HTTPException, status
-from core.logger import get_logger
+from logger.logger import get_logger
 
 logger = get_logger("routes.error_handling_examples")
 router = APIRouter(prefix="/examples", tags=["Error Handling Examples"])
