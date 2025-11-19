@@ -43,6 +43,19 @@ Never forget the right way to handle computed/derived fields in FastAPI + Beanie
 
 ---
 
+### 🛡️ Try-Except Block Best Practices
+Production-ready exception handling patterns for robust, secure FastAPI applications.
+
+**Features:**
+- Standard try-except patterns
+- Custom exception handling
+- Security best practices
+- HTTP status code guide
+
+👉 [View Try-Except Documentation](./try-except-block-best-practices/README.md)
+
+---
+
 ## 🚀 Quick Start
 
 1. **Choose a boilerplate** from the folders above
