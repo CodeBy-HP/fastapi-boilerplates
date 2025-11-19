@@ -83,6 +83,36 @@ Complete guide to HTTP headers, cookies, and dependency injection with productio
 
 ---
 
+### 🔍 Search & Pagination Best Practices
+Build efficient search endpoints with filtering, sorting, and pagination for production applications.
+
+**Features:**
+- Offset & cursor-based pagination
+- Full-text search with filters
+- Multi-field sorting
+- Faceted search with counts
+- Autocomplete & infinite scroll
+- Performance optimization tips
+
+👉 [View Search/Pagination Documentation](./search-routes-with-pagination-best-practices/README.md)
+
+---
+
+### 📋 FastAPI Schemas Best Practices
+Master Pydantic schema design with production-ready patterns for validation, nested data, and API responses.
+
+**Features:**
+- Create/Update/Response schema patterns
+- Field & model validators
+- Nested schemas (one-to-one, one-to-many)
+- Generic responses (paginated, error)
+- Computed fields & conditional validation
+- Security best practices
+
+👉 [View Schemas Documentation](./fastapi-schemas-best-practices/README.md)
+
+---
+
 ## 🚀 Quick Start
 
 1. **Choose a boilerplate** from the folders above
