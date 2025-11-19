@@ -56,6 +56,33 @@ Production-ready exception handling patterns for robust, secure FastAPI applicat
 
 ---
 
+### 🎯 Path, Query & Body Parameters Best Practices
+Master FastAPI parameter handling with production-ready patterns and validation techniques.
+
+**Features:**
+- When to use Path vs Query vs Body
+- Validation patterns (regex, ranges, enums)
+- Security best practices (input validation, limits)
+- Complete CRUD examples
+
+👉 [View Path/Query/Body Documentation](./path-query-body-best-practices/README.md)
+
+---
+
+### 🔐 Header, Cookie & Depends Best Practices
+Complete guide to HTTP headers, cookies, and dependency injection with production-ready authentication patterns.
+
+**Features:**
+- Header/Cookie extraction and validation
+- JWT authentication (header + cookie)
+- Dependency injection patterns
+- Role-based access control
+- Multi-tenant support
+
+👉 [View Header/Cookie/Depends Documentation](./header-cookie-depends-best-practices/README.md)
+
+---
+
 ## 🚀 Quick Start
 
 1. **Choose a boilerplate** from the folders above
