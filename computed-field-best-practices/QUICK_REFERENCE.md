@@ -209,6 +209,13 @@ Pydantic/Beanie processes in this order:
 4. `@model_validator(mode='after')`
 5. `@computed_field` (when accessed)
 
+## When to use field_validator(mode="before")
+Pydantic: `field_validator(..., mode="before")`
+Use when incoming user data is messy and must be cleaned BEFORE Pydantic parses it.
+Example: converting "yes", "1", 1, "true" → True OR "no", "0", 0 → False.
+Why? Because without `mode="before"`, Pydantic will try to cast first and fail.
+So use mode="before" for input normalization, type conversion, and cleanup.
+
 ---
 
 ## 🚨 Common Mistakes
